@@ -1,1 +1,25 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar Energy Generation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Solar Energy Generation Predictor</h1>
+            <section id="aqiFormSection">
+            <img src="https://www.pngarts.com/files/4/Sun-PNG-Image.png">
+           
+            <h3>Get Your Solar Generation Estimate</h3>
+            <form id="aqiForm" method="POST" action="/get_aqi">
+                <label for="city">Enter your city name:</label>
+                <input type="text" id="city" name="city" required placeholder="e.g., New York">
+                <button type="submit">Get Estimate</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
